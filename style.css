@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #f1f2f6, #dff9fb);
+    color: #2d3436;
+}
+
+div {
+    display: block;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.8em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    background-color: #f8f9fa;
+    padding: 14px 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s ease-in-out;
+    border: 1px solid #dcdde1;
+}
+
+li:hover {
+    background-color: #dcdde1;
+}
+
+li button {
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: background 0.2s ease-in-out;
+}
+
+li button:hover {
+    background-color: #74b9ff;
+}
+
+#completed-tasks span {
+    text-decoration: line-through;
+    color: #636e72;
+    font-size: 1.1em;
+    opacity: 0.8;
+}
+
+/* Optional: add dark mode support */
+body.dark-mode {
+    background: #2d3436;
+    color: #dfe6e9;
+}
+
+body.dark-mode div {
+    background-color: #3d3d3d;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode h1 {
+    color: #ffffff;
+}
+
+body.dark-mode li {
+    background-color: #4d4d4d;
+    color: #dfe6e9;
+    border: 1px solid #636e72;
+}
+
+body.dark-mode li:hover {
+    background-color: #636e72;
+}
+
+body.dark-mode li button {
+    background-color: #00cec9;
+}
+
+body.dark-mode li button:hover {
+    background-color: #81ecec;
+}
+
+body.dark-mode #completed-tasks span {
+    color: #b2bec3;
+}
+
