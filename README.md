@@ -9,4 +9,4 @@ A simple to-do list built using HTML, CSS, and JavaScript.
 - Mobile-friendly UI
 
 ## Created by
-MADHAV DANG— 2nd year B.Tech student, learning full-stack web development.
+MADHAV DANG— 2027 BATCH B.Tech student, learning full-stack web development.
